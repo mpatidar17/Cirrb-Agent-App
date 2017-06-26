@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  Cirrb Agent
+
+  Created by Yuvasoft on 6/13/17.
+  Copyright © 2017 mac. All rights reserved.
+*/
+
+"Home" = "الرئيسية";
+"Order History" = "الطلبات السابقة";
+"Profile" = "الملف الشخصي";
+"Logout" = "تسجيل الخروج";
+"Are you sure want to logout?" = "هل أنت متأكد من تسجيل الخروج";
+"No" = "لا";
+"Yes" = "نعم";
+
+"In Hand" = "المبلغ المتوفر";
+"Limit" = "حد";
+"ACCEPT ORDER" = "قبول الطلب";
+
+"LOOKING UP,PLEASE WAIT...." = "جاري البحث... الرجاء الإنتظار";
+"STOP ORDER" = "توقف عن الطلب";
+
+"INCOMING ORDER" = "هناك طلب جديد";
+"DENY" = "رفض";
+"ACCEPT" =	"قبول";
+
+"New Order" = "طلب جديد";
+"MAP" = "خريطة";
+"PICKUP AND DROP OFF" = "عنوان أخذ الطلب ومكان تسليمه";
+"ORDER DETAILS" = "تفاصيل الطلب";
+"Delivery charges" = ":عمولة التوصيل";
+"Receivable Charges" = ":المبالغ المستحقة";
+"Sub Total" = ":المبلغ الإجمالي";
+"COMPLETE DELIVERY" = "تم توصيل الطلب";
+"GRAND TOTAL" = ":المبلغ الإجمالي";
+
+
+"COMPLETE DELIVERY" = "تم توصيل الطلب";
+"RECEIVED AMOUNT" = "تم إستلام المبلغ";
+"Received amount must be equal or more than the receivable total" = "يجب أن يكون المبلغ المستلم من العميل مساوي أو أكثر من مبلغ الطلب";
+"SUBMIT" = "إتمام العملية";
+
+"GREAT WORK!" = "عمل عظيم!";
+"What would you like to do now?" = "ماذا تريد أن تفعل الآن؟";
+"Keep them coming!" = "الحفاظ عليها القادمة!";
+"Thank you!  I'm done for today" = "شكرا! أنا فعلت لهذا اليوم";
+
+"Orders" = "طلب";
+
+"Order History" = "تاريخ الطلب";
+"Customer Details" = ":تفاصيل العميل";
+"Name" = ":اسم";
+"Email:" = ":البريد الإلكتروني";
+"Phone" = ":هاتف";
+"Order total:" =	":مجموع الطلب";
+"Delivery charges:" = ":تكلفة التوصيل";
+"Grand total:" = ":إجمالي المبلغ";
+"Received amount" = ":المبلغ الذي تسلمه";
+
+"Last Received" = "أخر مبلغ تم إستلامه";
+"Total Order" = "إجمالي الطلبات";
+"PROFILE"	= "الملف الشخصي";
+"Please Wait"	= "الرجاء الإنتظار";
+"First Name" = "الإسم الأول";
+"Last Name" = "الإسم الأخير";
+"Mobile Number" = "رقم الجوال";
+"Save" = "حفظ";
+"Email" = "البريد الإلكتروني";
+

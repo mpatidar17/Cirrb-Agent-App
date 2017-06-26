@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.4.0)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - IQCircularProgressView (1.0.0)
+  - IQKeyboardManagerSwift (4.0.9)
+  - IQNetworkTaskManager (1.0.1):
+    - IQURLConnection
+  - IQURLConnection (1.0.1)
+  - Kingfisher (3.9.1)
+  - MBProgressHUD (1.0.0)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
+  - GoogleMaps
+  - IQCircularProgressView
+  - IQKeyboardManagerSwift
+  - IQNetworkTaskManager
+  - Kingfisher
+  - MBProgressHUD
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: c8700ac7ea6b7efa7200e2920bf528e88b4dbee6
+    :git: https://github.com/Alamofire/Alamofire.git
+
+SPEC CHECKSUMS:
+  Alamofire: 4c2bf7fa03c4a626163606de0a417568c270575e
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  IQCircularProgressView: e4f196a260d80465e4692e55b1df3da4770c4f1c
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  IQNetworkTaskManager: 7b99202f3dd6c64bcd2d08ff49843621b06c23be
+  IQURLConnection: 4042d9384e769862a53c208ed848aabbcd02857a
+  Kingfisher: 6729a0baaa458245bfb8cd5a1296c71c10d6eb6c
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+
+PODFILE CHECKSUM: 3c6574980a9fd7574a078d467ba76db39e794387
+
+COCOAPODS: 1.2.0

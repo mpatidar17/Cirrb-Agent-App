@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  Cirrb Agent
+
+  Created by Yuvasoft on 6/13/17.
+  Copyright © 2017 mac. All rights reserved.
+*/
+
+
+"Home" = "Home";
+"Order History" = "اOrder History";
+"Profile" = "اProfile";
+"Logout" = "Logout";
+"Are you sure want to logout?" = "Are you sure want to logout?";
+"No" = "No";
+"Yes" = "Yes";
+
+"In Hand" = "In Hand";
+"Limit" = "Limit";
+"ACCEPT ORDER" = "ACCEPT ORDER";
+
+"LOOKING UP,PLEASE WAIT...." = "LOOKING UP,PLEASE WAIT....";
+"STOP ORDER" = "STOP ORDER";
+
+"INCOMING ORDER" = "INCOMING ORDER";
+"DENY" = "DENY";
+"ACCEPT" =	"ACCEPT";
+
+"New Order" = "New Order";
+"MAP" = "MAP";
+"PICKUP AND DROP OFF" = "PICKUP AND DROP OFF";
+"ORDER DETAILS" = "ORDER DETAILS";
+"Delivery charges" = "Delivery charges:";
+"Receivable Charges" = "Receivable Charges:";
+"Sub Total" = "Sub Total:";
+"COMPLETE DELIVERY" = "COMPLETE DELIVERY";
+"GRAND TOTAL" = "Grand Total:";
+
+"COMPLETE DELIVERY" = "COMPLETE DELIVERY";
+"RECEIVED AMOUNT" = "RECEIVED AMOUNT";
+"Received amount must be equal or more than the receivable total" = "Received amount must be equal or more than the receivable total";
+"SUBMIT" = "SUBMIT";
+
+"GREAT WORK!" = "GREAT WORK!";
+"What would you like to do now?" = "What would you like to do now?";
+"Keep them coming!" = "Keep them coming!";
+"Thank you!  I'm done for today" = "Thank you!  I'm done for today";
+
+"Orders" = "Orders";
+
+"Order History" = "Order History";
+"Customer Details" = "Customer Details:";
+"Name" = "Name:";
+"Email" = "Email:";
+"Phone" = "Phone:";
+"Order total:" =	"Order total:";
+"Delivery charges:" = "Delivery charges:";
+"Grand total:" = "Grand total:";
+"Received amount" = "Received amount:";
+
+"Last Received" = "Last Received";
+"Total Order" = "Total Order";
+"Cash Limit" = "Cash Limit";
+"PROFILE"	= "Profile";
+"Please Wait"	= "Please Wait";
+"First Name" = "First Name";
+"Last Name" = "Last Name";
+"Mobile Number" = "Mobile Number";
+"Save" = "Save";
+"Email" = "Email";

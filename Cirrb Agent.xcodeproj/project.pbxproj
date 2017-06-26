@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0407116A1EC58D6600608B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040711691EC58D6600608B15 /* AppDelegate.swift */; };
+		0407116F1EC58D6600608B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0407116D1EC58D6600608B15 /* Main.storyboard */; };
+		040711711EC58D6600608B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040711701EC58D6600608B15 /* Assets.xcassets */; };
+		040711741EC58D6600608B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040711721EC58D6600608B15 /* LaunchScreen.storyboard */; };
+		0407117E1EC5C50800608B15 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407117D1EC5C50800608B15 /* Constant.swift */; };
+		040711801EC5C51700608B15 /* APIServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407117F1EC5C51700608B15 /* APIServiceManager.swift */; };
+		040711871EC5C54500608B15 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040711821EC5C54500608B15 /* BaseViewController.swift */; };
+		040711881EC5C54500608B15 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040711831EC5C54500608B15 /* LoginViewController.swift */; };
+		040711891EC5C54500608B15 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040711841EC5C54500608B15 /* RegisterViewController.swift */; };
+		0407118A1EC5C54500608B15 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040711851EC5C54500608B15 /* ForgotPasswordViewController.swift */; };
+		0407118B1EC5C54500608B15 /* SetForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040711861EC5C54500608B15 /* SetForgotPasswordViewController.swift */; };
+		040711901EC5C56B00608B15 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407118D1EC5C56B00608B15 /* LoginTextField.swift */; };
+		040711911EC5C56B00608B15 /* defaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407118E1EC5C56B00608B15 /* defaultButton.swift */; };
+		040711921EC5C56B00608B15 /* singleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407118F1EC5C56B00608B15 /* singleTextField.swift */; };
+		040711941EC5D59400608B15 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040711931EC5D59400608B15 /* HomeViewController.swift */; };
+		040711A21EC5F45B00608B15 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040711A11EC5F45B00608B15 /* SWRevealViewController.m */; };
+		040711A41EC5F54A00608B15 /* LeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040711A31EC5F54A00608B15 /* LeftMenuViewController.swift */; };
+		0432A5DB1ECEEE880001FC3F /* SearchOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432A5DA1ECEEE880001FC3F /* SearchOrderViewController.swift */; };
+		0432A5DD1ECEEE980001FC3F /* AcceptOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432A5DC1ECEEE980001FC3F /* AcceptOrderViewController.swift */; };
+		0432A5DF1ECEEEBD0001FC3F /* ShowOrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432A5DE1ECEEEBD0001FC3F /* ShowOrderDetailViewController.swift */; };
+		0432A5E11ECEEF560001FC3F /* OrderPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432A5E01ECEEF550001FC3F /* OrderPaymentViewController.swift */; };
+		0432A5E31ECEEF6D0001FC3F /* CongratulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432A5E21ECEEF6D0001FC3F /* CongratulationViewController.swift */; };
+		04635E6E1ECC592700E8381F /* RegisterSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04635E6D1ECC592700E8381F /* RegisterSuccessViewController.swift */; };
+		0479C8A91ECC67D80043678C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479C8A81ECC67D80043678C /* ProfileViewController.swift */; };
+		0479C8AB1ECC74070043678C /* AllOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479C8AA1ECC74070043678C /* AllOrderViewController.swift */; };
+		07CC09074E5F1B1EFEDF3912 /* Pods_Cirrb_Agent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B317EE9B2783A19B6F756F /* Pods_Cirrb_Agent.framework */; };
+		2A27395F1EFAAAA60063EB80 /* icons8-Language-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A27395E1EFAAAA60063EB80 /* icons8-Language-50.png */; };
+		2A374B741ED6B05A00528F14 /* logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A374B731ED6B05A00528F14 /* logo_small.png */; };
+		2A3EBDCE1EF7B8C5005BE61F /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EBDCC1EF7B8C5005BE61F /* EmptySegue.swift */; };
+		2A3EBDCF1EF7B8C5005BE61F /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EBDCD1EF7B8C5005BE61F /* ContainerViewController.swift */; };
+		2A3EBDD11EF7B9EE005BE61F /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EBDD01EF7B9EE005BE61F /* NewOrderViewController.swift */; };
+		2A3EBDD31EF7C8B4005BE61F /* ShowOrdeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EBDD21EF7C8B4005BE61F /* ShowOrdeDetailsViewController.swift */; };
+		2A3EBDD51EF7E266005BE61F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3EBDD41EF7E266005BE61F /* MapViewController.swift */; };
+		2A6F195E1EDD4F470088BDA9 /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6F195D1EDD4F470088BDA9 /* Pulsator.swift */; };
+		2AAB0CA31EE93A4A00C3EFDE /* Up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AAB0CA21EE93A4A00C3EFDE /* Up.png */; };
+		2ABF19A11EEE99150076AADE /* OrderHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF19A01EEE99150076AADE /* OrderHistoryViewController.swift */; };
+		2AE5A7861EE033AB00BF5B42 /* Down.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AE5A7841EE033AB00BF5B42 /* Down.png */; };
+		2AF8294C1EEFC8850030785A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AF8294E1EEFC8850030785A /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040711661EC58D6600608B15 /* Cirrb Agent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cirrb Agent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		040711691EC58D6600608B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0407116E1EC58D6600608B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040711701EC58D6600608B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040711731EC58D6600608B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040711751EC58D6600608B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0407117D1EC5C50800608B15 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0407117F1EC5C51700608B15 /* APIServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServiceManager.swift; sourceTree = "<group>"; };
+		040711821EC5C54500608B15 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		040711831EC5C54500608B15 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		040711841EC5C54500608B15 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		040711851EC5C54500608B15 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		040711861EC5C54500608B15 /* SetForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		0407118D1EC5C56B00608B15 /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		0407118E1EC5C56B00608B15 /* defaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = defaultButton.swift; sourceTree = "<group>"; };
+		0407118F1EC5C56B00608B15 /* singleTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = singleTextField.swift; sourceTree = "<group>"; };
+		040711931EC5D59400608B15 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0407119F1EC5F45A00608B15 /* Cirrb Agent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cirrb Agent-Bridging-Header.h"; sourceTree = "<group>"; };
+		040711A01EC5F45B00608B15 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		040711A11EC5F45B00608B15 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		040711A31EC5F54A00608B15 /* LeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftMenuViewController.swift; sourceTree = "<group>"; };
+		0432A5DA1ECEEE880001FC3F /* SearchOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchOrderViewController.swift; sourceTree = "<group>"; };
+		0432A5DC1ECEEE980001FC3F /* AcceptOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptOrderViewController.swift; sourceTree = "<group>"; };
+		0432A5DE1ECEEEBD0001FC3F /* ShowOrderDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowOrderDetailViewController.swift; sourceTree = "<group>"; };
+		0432A5E01ECEEF550001FC3F /* OrderPaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderPaymentViewController.swift; sourceTree = "<group>"; };
+		0432A5E21ECEEF6D0001FC3F /* CongratulationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationViewController.swift; sourceTree = "<group>"; };
+		04635E6D1ECC592700E8381F /* RegisterSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterSuccessViewController.swift; sourceTree = "<group>"; };
+		0479C8A81ECC67D80043678C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0479C8AA1ECC74070043678C /* AllOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllOrderViewController.swift; sourceTree = "<group>"; };
+		1B662E1C05D309F6A64DF3A7 /* Pods-Cirrb Agent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cirrb Agent.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cirrb Agent/Pods-Cirrb Agent.release.xcconfig"; sourceTree = "<group>"; };
+		2A27395E1EFAAAA60063EB80 /* icons8-Language-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Language-50.png"; sourceTree = "<group>"; };
+		2A3093921EDEADC400718266 /* Cirrb Agent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cirrb Agent.entitlements"; sourceTree = "<group>"; };
+		2A374B731ED6B05A00528F14 /* logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_small.png; sourceTree = "<group>"; };
+		2A3EBDCC1EF7B8C5005BE61F /* EmptySegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
+		2A3EBDCD1EF7B8C5005BE61F /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		2A3EBDD01EF7B9EE005BE61F /* NewOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
+		2A3EBDD21EF7C8B4005BE61F /* ShowOrdeDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowOrdeDetailsViewController.swift; sourceTree = "<group>"; };
+		2A3EBDD41EF7E266005BE61F /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2A6F195D1EDD4F470088BDA9 /* Pulsator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulsator.swift; sourceTree = "<group>"; };
+		2AAB0CA21EE93A4A00C3EFDE /* Up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Up.png; sourceTree = "<group>"; };
+		2ABF19A01EEE99150076AADE /* OrderHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderHistoryViewController.swift; sourceTree = "<group>"; };
+		2AE5A7841EE033AB00BF5B42 /* Down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Down.png; sourceTree = "<group>"; };
+		2AF829481EEFC8090030785A /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Main.strings"; sourceTree = "<group>"; };
+		2AF829491EEFC8090030785A /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2AF8294D1EEFC8850030785A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2AF8294F1EEFC8A10030785A /* ar-SA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ar-SA"; path = "ar-SA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		55B317EE9B2783A19B6F756F /* Pods_Cirrb_Agent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cirrb_Agent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF85F55805FB428A3208CC19 /* Pods-Cirrb Agent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cirrb Agent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cirrb Agent/Pods-Cirrb Agent.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040711631EC58D6600608B15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CC09074E5F1B1EFEDF3912 /* Pods_Cirrb_Agent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0407115D1EC58D6600608B15 = {
+			isa = PBXGroup;
+			children = (
+				040711681EC58D6600608B15 /* Cirrb Agent */,
+				040711671EC58D6600608B15 /* Products */,
+				244698E4F159EF7FECBDFF24 /* Pods */,
+				92AE61EBB18D4A94D3B3CE25 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040711671EC58D6600608B15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040711661EC58D6600608B15 /* Cirrb Agent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040711681EC58D6600608B15 /* Cirrb Agent */ = {
+			isa = PBXGroup;
+			children = (
+				2A3093921EDEADC400718266 /* Cirrb Agent.entitlements */,
+				040711951EC5E32600608B15 /* MenuDrawer */,
+				0407118C1EC5C55500608B15 /* Style */,
+				040711811EC5C53300608B15 /* Controller */,
+				0407117C1EC5C43A00608B15 /* Service */,
+				0407117B1EC5A28900608B15 /* Constant */,
+				2A374B731ED6B05A00528F14 /* logo_small.png */,
+				040711691EC58D6600608B15 /* AppDelegate.swift */,
+				0407116D1EC58D6600608B15 /* Main.storyboard */,
+				040711701EC58D6600608B15 /* Assets.xcassets */,
+				040711721EC58D6600608B15 /* LaunchScreen.storyboard */,
+				040711751EC58D6600608B15 /* Info.plist */,
+				2AF8294E1EEFC8850030785A /* Localizable.strings */,
+			);
+			path = "Cirrb Agent";
+			sourceTree = "<group>";
+		};
+		0407117B1EC5A28900608B15 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				2A27395E1EFAAAA60063EB80 /* icons8-Language-50.png */,
+				2AAB0CA21EE93A4A00C3EFDE /* Up.png */,
+				2AE5A7841EE033AB00BF5B42 /* Down.png */,
+				0407117D1EC5C50800608B15 /* Constant.swift */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		0407117C1EC5C43A00608B15 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0407117F1EC5C51700608B15 /* APIServiceManager.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		040711811EC5C53300608B15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040711821EC5C54500608B15 /* BaseViewController.swift */,
+				040711841EC5C54500608B15 /* RegisterViewController.swift */,
+				04635E6D1ECC592700E8381F /* RegisterSuccessViewController.swift */,
+				040711851EC5C54500608B15 /* ForgotPasswordViewController.swift */,
+				040711861EC5C54500608B15 /* SetForgotPasswordViewController.swift */,
+				040711831EC5C54500608B15 /* LoginViewController.swift */,
+				040711931EC5D59400608B15 /* HomeViewController.swift */,
+				0432A5DA1ECEEE880001FC3F /* SearchOrderViewController.swift */,
+				0432A5DC1ECEEE980001FC3F /* AcceptOrderViewController.swift */,
+				2A3EBDD01EF7B9EE005BE61F /* NewOrderViewController.swift */,
+				2A3EBDD41EF7E266005BE61F /* MapViewController.swift */,
+				2A3EBDD21EF7C8B4005BE61F /* ShowOrdeDetailsViewController.swift */,
+				0432A5E01ECEEF550001FC3F /* OrderPaymentViewController.swift */,
+				0432A5E21ECEEF6D0001FC3F /* CongratulationViewController.swift */,
+				0479C8AA1ECC74070043678C /* AllOrderViewController.swift */,
+				2ABF19A01EEE99150076AADE /* OrderHistoryViewController.swift */,
+				0479C8A81ECC67D80043678C /* ProfileViewController.swift */,
+				0432A5DE1ECEEEBD0001FC3F /* ShowOrderDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0407118C1EC5C55500608B15 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				2A6F195D1EDD4F470088BDA9 /* Pulsator.swift */,
+				0407118D1EC5C56B00608B15 /* LoginTextField.swift */,
+				0407118E1EC5C56B00608B15 /* defaultButton.swift */,
+				0407118F1EC5C56B00608B15 /* singleTextField.swift */,
+				2A3EBDCC1EF7B8C5005BE61F /* EmptySegue.swift */,
+				2A3EBDCD1EF7B8C5005BE61F /* ContainerViewController.swift */,
+			);
+			name = Style;
+			sourceTree = "<group>";
+		};
+		040711951EC5E32600608B15 /* MenuDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				040711A01EC5F45B00608B15 /* SWRevealViewController.h */,
+				040711A11EC5F45B00608B15 /* SWRevealViewController.m */,
+				0407119F1EC5F45A00608B15 /* Cirrb Agent-Bridging-Header.h */,
+				040711A31EC5F54A00608B15 /* LeftMenuViewController.swift */,
+			);
+			name = MenuDrawer;
+			sourceTree = "<group>";
+		};
+		244698E4F159EF7FECBDFF24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF85F55805FB428A3208CC19 /* Pods-Cirrb Agent.debug.xcconfig */,
+				1B662E1C05D309F6A64DF3A7 /* Pods-Cirrb Agent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92AE61EBB18D4A94D3B3CE25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B317EE9B2783A19B6F756F /* Pods_Cirrb_Agent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040711651EC58D6600608B15 /* Cirrb Agent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040711781EC58D6600608B15 /* Build configuration list for PBXNativeTarget "Cirrb Agent" */;
+			buildPhases = (
+				470DFF95950F9C42A052D8B4 /* [CP] Check Pods Manifest.lock */,
+				040711621EC58D6600608B15 /* Sources */,
+				040711631EC58D6600608B15 /* Frameworks */,
+				040711641EC58D6600608B15 /* Resources */,
+				4D6762D555A6A8A137FD0F41 /* [CP] Embed Pods Frameworks */,
+				6B98BF942160B5A67E4B846A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cirrb Agent";
+			productName = "Cirrb Agent";
+			productReference = 040711661EC58D6600608B15 /* Cirrb Agent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0407115E1EC58D6600608B15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					040711651EC58D6600608B15 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = BFQS5P5422;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 040711611EC58D6600608B15 /* Build configuration list for PBXProject "Cirrb Agent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"ar-SA",
+			);
+			mainGroup = 0407115D1EC58D6600608B15;
+			productRefGroup = 040711671EC58D6600608B15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040711651EC58D6600608B15 /* Cirrb Agent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040711641EC58D6600608B15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A27395F1EFAAAA60063EB80 /* icons8-Language-50.png in Resources */,
+				040711741EC58D6600608B15 /* LaunchScreen.storyboard in Resources */,
+				040711711EC58D6600608B15 /* Assets.xcassets in Resources */,
+				2AE5A7861EE033AB00BF5B42 /* Down.png in Resources */,
+				2AF8294C1EEFC8850030785A /* Localizable.strings in Resources */,
+				2A374B741ED6B05A00528F14 /* logo_small.png in Resources */,
+				2AAB0CA31EE93A4A00C3EFDE /* Up.png in Resources */,
+				0407116F1EC58D6600608B15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		470DFF95950F9C42A052D8B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D6762D555A6A8A137FD0F41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cirrb Agent/Pods-Cirrb Agent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B98BF942160B5A67E4B846A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cirrb Agent/Pods-Cirrb Agent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040711621EC58D6600608B15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ABF19A11EEE99150076AADE /* OrderHistoryViewController.swift in Sources */,
+				040711A21EC5F45B00608B15 /* SWRevealViewController.m in Sources */,
+				2A3EBDCF1EF7B8C5005BE61F /* ContainerViewController.swift in Sources */,
+				0407118A1EC5C54500608B15 /* ForgotPasswordViewController.swift in Sources */,
+				040711881EC5C54500608B15 /* LoginViewController.swift in Sources */,
+				2A6F195E1EDD4F470088BDA9 /* Pulsator.swift in Sources */,
+				040711871EC5C54500608B15 /* BaseViewController.swift in Sources */,
+				040711891EC5C54500608B15 /* RegisterViewController.swift in Sources */,
+				0407118B1EC5C54500608B15 /* SetForgotPasswordViewController.swift in Sources */,
+				0479C8A91ECC67D80043678C /* ProfileViewController.swift in Sources */,
+				040711801EC5C51700608B15 /* APIServiceManager.swift in Sources */,
+				0432A5E11ECEEF560001FC3F /* OrderPaymentViewController.swift in Sources */,
+				040711921EC5C56B00608B15 /* singleTextField.swift in Sources */,
+				0432A5DF1ECEEEBD0001FC3F /* ShowOrderDetailViewController.swift in Sources */,
+				0432A5DB1ECEEE880001FC3F /* SearchOrderViewController.swift in Sources */,
+				0407116A1EC58D6600608B15 /* AppDelegate.swift in Sources */,
+				0407117E1EC5C50800608B15 /* Constant.swift in Sources */,
+				0479C8AB1ECC74070043678C /* AllOrderViewController.swift in Sources */,
+				040711911EC5C56B00608B15 /* defaultButton.swift in Sources */,
+				0432A5E31ECEEF6D0001FC3F /* CongratulationViewController.swift in Sources */,
+				040711901EC5C56B00608B15 /* LoginTextField.swift in Sources */,
+				0432A5DD1ECEEE980001FC3F /* AcceptOrderViewController.swift in Sources */,
+				04635E6E1ECC592700E8381F /* RegisterSuccessViewController.swift in Sources */,
+				040711A41EC5F54A00608B15 /* LeftMenuViewController.swift in Sources */,
+				2A3EBDD11EF7B9EE005BE61F /* NewOrderViewController.swift in Sources */,
+				2A3EBDCE1EF7B8C5005BE61F /* EmptySegue.swift in Sources */,
+				2A3EBDD31EF7C8B4005BE61F /* ShowOrdeDetailsViewController.swift in Sources */,
+				2A3EBDD51EF7E266005BE61F /* MapViewController.swift in Sources */,
+				040711941EC5D59400608B15 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0407116D1EC58D6600608B15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0407116E1EC58D6600608B15 /* Base */,
+				2AF829481EEFC8090030785A /* ar-SA */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040711721EC58D6600608B15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040711731EC58D6600608B15 /* Base */,
+				2AF829491EEFC8090030785A /* ar-SA */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2AF8294E1EEFC8850030785A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF8294D1EEFC8850030785A /* en */,
+				2AF8294F1EEFC8A10030785A /* ar-SA */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040711761EC58D6600608B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		040711771EC58D6600608B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040711791EC58D6600608B15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF85F55805FB428A3208CC19 /* Pods-Cirrb Agent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Cirrb Agent/Cirrb Agent.entitlements";
+				DEVELOPMENT_TEAM = BFQS5P5422;
+				INFOPLIST_FILE = "Cirrb Agent/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agent.cirrb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cirrb Agent/Cirrb Agent-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0407117A1EC58D6600608B15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B662E1C05D309F6A64DF3A7 /* Pods-Cirrb Agent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Cirrb Agent/Cirrb Agent.entitlements";
+				DEVELOPMENT_TEAM = BFQS5P5422;
+				INFOPLIST_FILE = "Cirrb Agent/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.agent.cirrb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cirrb Agent/Cirrb Agent-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040711611EC58D6600608B15 /* Build configuration list for PBXProject "Cirrb Agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040711761EC58D6600608B15 /* Debug */,
+				040711771EC58D6600608B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040711781EC58D6600608B15 /* Build configuration list for PBXNativeTarget "Cirrb Agent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040711791EC58D6600608B15 /* Debug */,
+				0407117A1EC58D6600608B15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0407115E1EC58D6600608B15 /* Project object */;
+}

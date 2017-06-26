@@ -1,0 +1,6 @@
+framework module Pods_Cirrb_Agent {
+  umbrella header "Pods-Cirrb Agent-umbrella.h"
+
+  export *
+  module * { export * }
+}
